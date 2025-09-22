@@ -1,0 +1,101 @@
+body{
+    background-color:royalblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+.site{
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+    padding: 12px 8px;
+    margin: 8px 0;
+    clear: both;
+   
+}
+
+
+#main-nav{
+    background-color: rgb(164, 180, 190);
+}
+
+#main-nav li{
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover{
+    background-color: lightblue;
+    color: white;
+
+}
+
+#main-nav ul ul{
+    display: none;
+    position: absolute;
+
+}
+/* If there is a UL under a list element when hovering then show it */
+#main-nav li:hover ul{
+    display: block;
+    background-color: rgb(104, 145, 188);
+    float: left;
+    position: absolute;
+    padding: 0px;
+
+
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#name {
+    width: 100px;
+}
+
+#name:focus {
+    width: 200px
+}
+.content-box{
+    background-color: aliceblue;
+    color:black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    padding:5px;
+
+}
+
+.content-area{
+    width: 70%;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+#rules{
+    background-color: darkslateblue;
+ 
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin: 10px;
+}
+
+#rules:hover{
+    background-color: blue;
+}
+
+.main-container{
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid black;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 5px;
+}
